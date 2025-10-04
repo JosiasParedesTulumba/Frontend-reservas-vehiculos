@@ -15,7 +15,7 @@ export interface Rol {
 })
 export class RolesService {
 
-  private apiUrl = `${environment.apiUrl}/roles`; 
+  private apiUrl = `${environment.apiUrl}/rol`; 
 
   constructor(
     private http: HttpClient,
