@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { AuthService } from '../../auth/services/auth.service';
 import { Observable } from 'rxjs';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../../environments/environment.prod';
 
 export interface Rol {
   rol_id: number;

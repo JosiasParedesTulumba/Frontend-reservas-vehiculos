@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { BehaviorSubject, catchError, Observable, tap } from 'rxjs';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../../environments/environment.prod';
 
 // Interfaces para la API
 interface LoginRequest {

@@ -3,7 +3,7 @@ import { Vehiculo } from '../interfaces/vehiculo.interface';
 import { HttpClient } from '@angular/common/http';
 import { AuthService } from '../../auth/services/auth.service';
 import { map, Observable } from 'rxjs';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../../environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
